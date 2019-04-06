@@ -1,5 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'hans_kendrick_3regular';
+    src: url('hanskendrick-regular-webfont.woff2') format('woff2'),
+        url('hanskendrick-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: hans_kendrick_3regular, Arial, Helvetica, sans-serif;
+    background-color: #e2e7ec;
+    font-size: 14px;
+}
+
+
+
+.blog {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 90px 0;
+
+}
+
+.blog-item {
+    width: 360px;
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog-item--first {
+    background-size: cover;
+    width: 740px;
+    background-position: center;
+    color: #fff;
+    justify-content: flex-end;
+}
+
+.blog-item--first img {
+    display: none;
 }
