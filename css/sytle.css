@@ -36,6 +36,10 @@ a {
     align-items: stretch;
 }
 
+.blog+.loading {
+    padding-bottom: 100px;
+}
+
 .blog-item {
     display: flex;
     flex-direction: column;
@@ -103,7 +107,26 @@ a {
 .blog-item__autor {
     margin-top: auto;
 }
-[class*="--white"]{
+
+[class*="--white"] {
     color: rgba(255, 255, 255, 0.5) !important;
 
+}
+
+.loding {
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    font: 13px;
+    color: #818181;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loading_img {
+margin-right: 20px;
+
+    background-color: #1d1d1d;
 }
